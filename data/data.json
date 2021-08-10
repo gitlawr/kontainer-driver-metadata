@@ -9477,6 +9477,7 @@
        "aws",
        "azure",
        "gcp",
+       "harvester",
        "vsphere",
        "external"
       ],
@@ -9508,6 +9509,14 @@
      }
     },
     "charts": {
+     "harvester-cloud-provider": {
+      "repo": "rancher-charts",
+      "version": "100.0.0+up0.1.0"
+     },
+     "harvester-csi-driver": {
+      "repo": "rancher-charts",
+      "version": "100.0.0+up0.1.0"
+     },
      "rancher-vsphere-cpi": {
       "repo": "rancher-charts",
       "version": "1.0.000"
@@ -9618,7 +9627,7 @@
       "type": "array"
      }
     },
-    "version": "v1.21.3-rc4+rke2r2"
+    "version": "v1.21.3-dev-rke2r2"
    }
   ]
  }
